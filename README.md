@@ -4,6 +4,11 @@ Landing page multipágina para un restaurante desarrollada con **HTML, CSS y Jav
 
 Este proyecto fue desarrollado para un restaurante local y forma parte de mi portafolio de desarrollo frontend.
 
+## Live Demo
+
+[View website](https://johannesguzman.github.io/lasninfas/)
+
+
 
 ## Preview
 
