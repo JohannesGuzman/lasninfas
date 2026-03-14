@@ -9,7 +9,6 @@ Este proyecto fue desarrollado para un restaurante local y forma parte de mi por
 [View website](https://johannesguzman.github.io/lasninfas/)
 
 
-
 ## Preview
 
 ![Las Ninfas Restaurant Preview](assets/img/screenshot-home.png)
