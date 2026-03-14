@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Las Ninfas Restaurante | Inicio</title>
+  <meta name="description" content="Las Ninfas Restaurante - Café restaurante en Cuernavaca. Fusión de sabores, brunch y menú variado." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <div class="nav__left">
+        <a class="nav__brand" href="index.html" aria-label="Ir a inicio">
+          <img src="assets/img/ninfas_letras.png" alt="Las Ninfas Restaurante" class="nav__brandLogo">
+        </a>
+
+        <div class="nav__social" aria-label="Redes sociales">
+          <a class="icon-btn" href="https://www.instagram.com/lasninfasrestaurante/?igsh=MWJrdmc4ODJwMXloaQ%3D%3D" target="_blank" rel="noopener" aria-label="Instagram (abre en otra pestaña)">
+            <!-- Instagram SVG -->
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm10.25 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg>
+          </a>
+
+          <a class="icon-btn" href="https://www.facebook.com/people/Las-Ninfas-Cuernavaca/pfbid0CZBWf6vSBwSf6zorWirbNVE8tK7yUmEEgWy2SwNCqz29QnmVTBHReiC7oBYe7C5ol/?mibextid=qi2Omg&rdid=a0Atf2EIv83voTIg&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FhKjvb2TPyUtNLrX5%2F%3Fmibextid%3Dqi2Omg" target="_blank" rel="noopener" aria-label="Facebook (abre en otra pestaña)">
+            <!-- Facebook SVG -->
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.7-1.6h1.7V4.8c-.3 0-1.4-.1-2.7-.1-2.7 0-4.5 1.6-4.5 4.6V11H7v3h2.7v8h3.8Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="nav__center">
+        <a href="index.html" aria-label="Ir a inicio">
+          <img src="assets/img/ninfas_img.png" alt="Logo Las Ninfas" class="nav__centerLogo">
+        </a>
+      </div>
+
+      <div class="nav__right">
+        <button class="hamburger" type="button"
+          aria-label="Abrir menú"
+          aria-controls="nav-panel"
+          aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div id="nav-panel" class="nav__panel" data-collapsible>
+          <ul class="nav__menu" role="list">
+            <li><a class="nav__link is-active" href="index.html">Inicio</a></li>
+
+            <li class="dropdown">
+              <button class="nav__link nav__link--btn dropdown__btn" type="button"
+                aria-haspopup="true" aria-expanded="false">
+                Menú
+                <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <div class="dropdown__menu" role="menu">
+                <a role="menuitem" href="assets/pdf/comida_menu.pdf" target="_blank" rel="noopener">Comida</a>
+                <a role="menuitem" href="assets/pdf/bebida_menu.pdf" target="_blank" rel="noopener">Bebidas</a>
+              </div>
+            </li>
+
+            <li><a class="nav__link" href="pages/nosotros.html">Nosotros</a></li>
+            <li><a class="nav__link" href="pages/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <div class="hero__card">
+          <h1 class="hero__title">Las Ninfas Restaurante</h1>
+          <p class="hero__text">
+            Bienvenido a nuestro café-restaurante, donde te invitamos a disfrutar de una experiencia culinaria excepcional.
+            Descubre la deliciosa fusión de sabores en cada plato preparado con pasión y creatividad.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BANDA  -->
+    <section class="band">
+      <div class="container band__inner">
+
+        <img class="ave ave--left"
+            src="assets/img/ave_izquierda.png"
+            alt=""
+            aria-hidden="true">
+
+        <div class="band__content">
+          <h2 class="band__title">
+            DESCUBRE LA DELICIOSA FUSIÓN<br>DE SABORES
+          </h2>
+          <div class="band__rule" aria-hidden="true"></div>
+        </div>
+
+        <img class="ave ave--right"
+            src="assets/img/ave_derecha.png"
+            alt=""
+            aria-hidden="true">
+
+      </div>
+    </section>
+
+    <!-- SLIDER -->
+    <section class="slider-section">
+      <div class="container">
+        <div class="slider" aria-label="Carrusel de imágenes" data-slider>
+          <button class="slider__btn slider__btn--prev" type="button" aria-label="Anterior" data-prev>
+            <span aria-hidden="true">‹</span>
+          </button>
+
+          <div class="slider__viewport" data-viewport>
+            <div class="slider__track" data-track>
+              <div class="slide is-portrait">
+                <img class="img-portrait" src="assets/img/quesadillas.JPG" alt="Quesadillas">
+              </div>                
+              <div class="slide">
+                <img src="assets/img/burrito.JPG" alt="Platillo destacado 2" loading="lazy" data-fallback="true">
+              </div>
+              <div class="slide">
+                <img src="assets/img/huevos1.JPG" alt="Platillo destacado 3" loading="lazy" data-fallback="true">
+              </div>
+              <div class="slide">
+                <img src="assets/img/nogada.JPG" alt="Platillo destacado 4" loading="lazy" data-fallback="true">
+              </div>
+              <div class="slide is-portrait">
+                <img class="assets/img-portrait" src="assets/img/mole.JPG" alt="enmoladas">
+              </div>
+              <div class="slide">
+                <img src="assets/img/pechuga.jpg" alt="Platillo destacado 6" loading="lazy" data-fallback="true">
+              </div>
+              <div class="slide">
+                <img src="assets/img/suizas.JPG" alt="Platillo destacado 7" loading="lazy" data-fallback="true">
+              </div>
+              <div class="slide">
+                <img src="assets/img/ensalada.JPG" alt="Platillo destacado 8" loading="lazy" data-fallback="true">
+              </div>
+              <div class="slide is-portrait">
+                <img class="img-portrait" src="assets/img/hamburger.JPG" alt="Hamburguesa">
+              </div>                                                                      
+              <div class="slide">
+                <img src="assets/img/enfrijoladas.JPG" alt="Platillo destacado 10" loading="lazy" data-fallback="true">
+              </div> 
+            </div>
+          </div>
+
+          <button class="slider__btn slider__btn--next" type="button" aria-label="Siguiente" data-next>
+            <span aria-hidden="true">›</span>
+          </button>
+
+          <div class="slider__dots" role="tablist" aria-label="Indicadores del carrusel" data-dots>
+            <button type="button" class="dot is-active" aria-label="Ir a slide 1" data-dot="0"></button>
+            <button type="button" class="dot" aria-label="Ir a slide 2" data-dot="1"></button>
+            <button type="button" class="dot" aria-label="Ir a slide 3" data-dot="2"></button>
+            <button type="button" class="dot" aria-label="Ir a slide 4" data-dot="3"></button>
+            <button type="button" class="dot" aria-label="Ir a slide 5" data-dot="4"></button>
+            <button type="button" class="dot" aria-label="Ir a slide 6" data-dot="5"></button>
+            <button type="button" class="dot" aria-label="Ir a slide 7" data-dot="6"></button>
+            <button type="button" class="dot" aria-label="Ir a slide 8" data-dot="7"></button>
+            <button type="button" class="dot" aria-label="Ir a slide 9" data-dot="8"></button> 
+            <button type="button" class="dot" aria-label="Ir a slide 10" data-dot="9"></button>                                           
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- BANDA 2 / CTA MENÚ -->
+<section class="band band--cta">
+  <div class="container band__inner">
+    <img class="ave ave--left"
+        src="assets/img/ave_izquierda.png"
+        alt=""
+        aria-hidden="true">
+    <div class="band__content">
+      <h2 class="band__title">
+        SABORES EXQUISITOS EN EL PLATO
+      </h2>
+      <div class="menu-dropdown">
+        <button class="btn btn--primary menu-btn">
+          Menú
+        </button>
+        <div class="menu-popup">
+          <a role="menuitem"
+             href="assets/pdf/comida_menu.pdf"
+             target="_blank"
+             rel="noopener">
+             Comida
+          </a>
+          <a role="menuitem"
+             href="assets/pdf/bebida_menu.pdf"
+             target="_blank"
+             rel="noopener">
+             Bebidas
+          </a>
+        </div>
+      </div>
+    </div>
+    <img class="ave ave--right"
+        src="assets/img/ave_derecha.png"
+        alt=""
+        aria-hidden="true">
+  </div>
+</section>
+
+    <!-- SERVICIOS -->
+    <section class="services">
+      <div class="container">
+        <h2 class="section-title">Nuestros servicios</h2>
+
+        <div class="cards3">
+          <article class="card">
+            <h3 class="card__title">Menú Variado</h3>
+            <p class="card__text">
+              Disfruta de nuestro menú variado con platos deliciosos que incluyen opciones para todos los gustos,
+              desde comida reconfortante hasta platos saludables y sabrosos.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Menú Brunch</h3>
+            <p class="card__text">
+              Relájate y disfruta de nuestro delicioso brunch, con una amplia variedad de opciones para el desayuno y el almuerzo,
+              junto con nuestras refrescantes bebidas.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Menú Festivo</h3>
+            <p class="card__text">
+              Hemos diseñado un menú especial que combina lo mejor de cada temporada para que disfrutes de una experiencia culinaria
+              inolvidable en cualquier momento.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA STRIP -->
+    <section class="gallery-strip">
+      <div class="container">
+        <div class="strip" aria-label="Galería de ambiente y platillos">
+          <figure class="strip__item">
+            <img src="assets/img/inside.jpeg" alt="Ambiente del restaurante 1" loading="lazy" data-fallback="true">
+          </figure>
+          <figure class="strip__item">
+            <img src="assets/img/outside.jpeg" alt="Ambiente del restaurante 2" loading="lazy" data-fallback="true">
+          </figure>
+          <figure class="strip__item">
+            <img src="assets/img/inside2.jpeg" alt="Ambiente del restaurante 3" loading="lazy" data-fallback="true">
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <!-- Col 1 -->
+      <div class="footer__col">
+        <button class="footer__logoBtn" type="button" data-scrolltop aria-label="Subir al inicio">
+          <img src="assets/img/lasninfas.png" alt="Las Ninfas Restaurante" class="footer__logo">
+        </button>
+
+        <div class="footer__social">
+          <a class="icon-btn" href="https://www.instagram.com/lasninfasrestaurante/?igsh=MWJrdmc4ODJwMXloaQ%3D%3D" target="_blank" rel="noopener" aria-label="Instagram (abre en otra pestaña)">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm10.25 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg>
+          </a>
+          <a class="icon-btn" href="https://www.facebook.com/people/Las-Ninfas-Cuernavaca/pfbid0CZBWf6vSBwSf6zorWirbNVE8tK7yUmEEgWy2SwNCqz29QnmVTBHReiC7oBYe7C5ol/?mibextid=qi2Omg&rdid=wliXppJ824rTrGVg&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FhKjvb2TPyUtNLrX5%2F%3Fmibextid%3Dqi2Omg" target="_blank" rel="noopener" aria-label="Facebook (abre en otra pestaña)">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.7-1.6h1.7V4.8c-.3 0-1.4-.1-2.7-.1-2.7 0-4.5 1.6-4.5 4.6V11H7v3h2.7v8h3.8Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Col 2 -->
+      <div class="footer__col">
+        <h3 class="footer__title">Información de contacto</h3>
+
+        <a class="footer__row" href="https://wa.me/5217772563685" target="_blank" rel="noopener" aria-label="Enviar WhatsApp al +52 1 777 256 3685">
+          <span class="footer__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.7 7L4 19.7l1.3-4.3A8 8 0 1 1 20 11.5Zm-8.1 4.8c2.1 0 4-1.2 5-3 .2-.4.1-.8-.3-1l-1.4-.7c-.3-.1-.7 0-.9.3l-.6.8c-.2.2-.4.3-.7.2-.8-.3-1.5-.8-2.1-1.4-.6-.6-1.1-1.3-1.4-2.1-.1-.3 0-.5.2-.7l.8-.6c.3-.2.4-.6.3-.9l-.7-1.4c-.2-.4-.6-.5-1-.3-1.8 1-3 2.9-3 5 0 3.3 2.7 6 6 6Z"/></svg>
+          </span>
+          <span>+52 1 777 256 3685</span>
+        </a>
+
+        <a class="footer__row" href="mailto:lasninfascuernavaca@gmail.com" aria-label="Enviar correo a lasninfascuernavaca@gmail.com">
+          <span class="footer__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 6h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Zm0 2v.2l8 5 8-5V8H4Zm16 10V10.6l-7.4 4.6a1 1 0 0 1-1.2 0L4 10.6V18h16Z"/></svg>
+          </span>
+          <span>lasninfascuernavaca@gmail.com</span>
+        </a>
+
+        <a class="footer__row" href="https://www.google.com/maps/search/?api=1&query=Blvd.+del+Lago+100-local+11,+Villas+del+Lago,+62374+Cuernavaca,+Morelos,+México" target="_blank" rel="noopener" aria-label="Abrir ubicación en Google Maps">
+          <span class="footer__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 22s7-4.4 7-11a7 7 0 1 0-14 0c0 6.6 7 11 7 11Zm0-9.5A2.5 2.5 0 1 1 12 7a2.5 2.5 0 0 1 0 5.5Z"/></svg>
+          </span>
+          <span>Blvd. del Lago 100-local 11, Villas del Lago, 62374 Cuernavaca, Morelos, México</span>
+        </a>
+      </div>
+
+      <!-- Col 3 -->
+      <div class="footer__col">
+        <h3 class="footer__title">Horario de apertura</h3>
+        <p class="footer__text">Lun. - Vier. 08:00 am - 04:30 pm</p>
+        <p class="footer__text">Sábados: 08:00 am - 02:00 pm</p>
+        <p class="footer__text">Domingos: Cerrado</p>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© 2026 Las Ninfas Restaurante. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>
